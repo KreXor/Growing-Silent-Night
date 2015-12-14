@@ -1,0 +1,249 @@
+{
+	"sprite_set": "Data/Player/Aerobic.bmp",
+	"animations": [
+		{
+			"name": "still",
+			"framerate": 200,
+			"framecount": 1,
+			"frames": [
+				{
+					"frame": 0,
+					"pos_x": 16,
+					"pos_y": 652,
+					"width": 32,
+					"height": 50
+				}
+			]
+		},
+		{
+			"name": "walk-side",
+			"framerate": 75,
+			"framecount": 8,
+			"frames": [
+				{
+					"frame": 0,
+					"pos_x": 80,
+					"pos_y": 589,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 1,
+					"pos_x": 144,
+					"pos_y": 589,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 2,
+					"pos_x": 208,
+					"pos_y": 589,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 3,
+					"pos_x": 272,
+					"pos_y": 589,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 4,
+					"pos_x": 336,
+					"pos_y": 589,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 5,
+					"pos_x": 400,
+					"pos_y": 589,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 6,
+					"pos_x": 464,
+					"pos_y": 589,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 7,
+					"pos_x": 528,
+					"pos_y": 589,
+					"width": 32,
+					"height": 50
+				}
+			]
+		},
+		{
+			"name": "walk-up",
+			"framerate": 75,
+			"framecount": 8,
+			"frames": [
+				{
+					"frame": 0,
+					"pos_x": 80,
+					"pos_y": 525,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 1,
+					"pos_x": 144,
+					"pos_y": 525,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 2,
+					"pos_x": 208,
+					"pos_y": 525,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 3,
+					"pos_x": 272,
+					"pos_y": 525,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 4,
+					"pos_x": 336,
+					"pos_y": 525,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 5,
+					"pos_x": 400,
+					"pos_y": 525,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 6,
+					"pos_x": 464,
+					"pos_y": 525,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 7,
+					"pos_x": 528,
+					"pos_y": 525,
+					"width": 32,
+					"height": 50
+				}
+			]
+		},
+		{
+			"name": "walk-down",
+			"framerate": 75,
+			"framecount": 8,
+			"frames": [
+				{
+					"frame": 0,
+					"pos_x": 80,
+					"pos_y": 652,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 1,
+					"pos_x": 144,
+					"pos_y": 652,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 2,
+					"pos_x": 208,
+					"pos_y": 652,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 3,
+					"pos_x": 272,
+					"pos_y": 652,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 4,
+					"pos_x": 336,
+					"pos_y": 652,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 5,
+					"pos_x": 400,
+					"pos_y": 652,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 6,
+					"pos_x": 464,
+					"pos_y": 652,
+					"width": 32,
+					"height": 50
+				},
+				{
+					"frame": 7,
+					"pos_x": 528,
+					"pos_y": 652,
+					"width": 32,
+					"height": 50
+				}
+			]
+		},
+		{
+		"name": "dance",
+		"framerate": 75,
+		"framecount": 4,
+		"frames": [
+			{
+				"frame": 0,
+				"pos_x": 80,
+				"pos_y": 781,
+				"width": 40,
+				"height": 50
+			},
+			{
+				"frame": 1,
+				"pos_x": 144,
+				"pos_y": 781,
+				"width": 40,
+				"height": 50
+			},
+			{
+				"frame": 2,
+				"pos_x": 208,
+				"pos_y": 781,
+				"width": 40,
+				"height": 50
+			},
+			{
+				"frame": 3,
+				"pos_x": 272,
+				"pos_y": 781,
+				"width": 40,
+				"height": 50
+			},
+			{
+				"frame": 4,
+				"pos_x": 336,
+				"pos_y": 781,
+				"width": 40,
+				"height": 50
+			}]}
+
+	]
+}

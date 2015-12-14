@@ -1,0 +1,154 @@
+﻿Build started 2015-12-14 13:45:50.
+     1>Project "D:\DevCode\Games\Ludum\Ludum\Ludum.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Animation\Animation.cpp src\Animation\AnimationNode.cpp src\Animation\AnimationReader.cpp src\Animation\Sprite.cpp src\Camera.cpp src\GameEngine.cpp src\GraphicHelper.cpp src\InputHandler.cpp src\Item\Armor.cpp src\Item\Item.cpp src\Item\Weapon.cpp src\Main.cpp src\Map\Map.cpp src\Map\MapReader.cpp src\Physics\Lightning.cpp src\Physics\Physics.cpp src\Physics\Raycast.cpp src\Player.cpp src\SoundHandler.cpp src\States\CreditState.cpp src\States\EndingPrisonState.cpp src\States\IntroState.cpp src\States\MenuState.cpp src\States\MiniGame\MiniGamePetState.cpp src\States\MiniGame\MiniGamePowerState.cpp src\States\MiniGame\MiniGameYogaState.cpp src\States\PlayerHouseState.cpp src\States\WorldState.cpp src\Ui\DialogHandler.cpp src\Ui\Menu.cpp src\Ui\MenuTel.cpp src\Ui\MenuTv.cpp src\Unit.cpp src\Utils\Vector2.cpp
+         Animation.cpp
+     1>src\Animation\Animation.cpp(59): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\Animation\Animation.cpp(60): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         AnimationNode.cpp
+         AnimationReader.cpp
+         Sprite.cpp
+         Camera.cpp
+     1>src\Camera.cpp(86): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\Camera.cpp(94): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\Camera.cpp(96): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\Camera.cpp(99): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\Camera.cpp(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\Camera.cpp(112): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\Camera.cpp(120): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\Camera.cpp(122): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\Camera.cpp(125): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\Camera.cpp(127): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         GameEngine.cpp
+         GraphicHelper.cpp
+     1>src\GraphicHelper.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+         InputHandler.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Armor.cpp
+     1>d:\devcode\games\ludum\ludum\src\item\../Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\item\../Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\Item\Armor.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+     1>src\Item\Armor.cpp(34): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\Item\Armor.cpp(35): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Item.cpp
+     1>d:\devcode\games\ludum\ludum\src\item\../Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\item\../Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Weapon.cpp
+     1>d:\devcode\games\ludum\ludum\src\item\../Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\item\../Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Main.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Map.cpp
+     1>src\Map\Map.cpp(116): warning C4018: '<' : signed/unsigned mismatch
+         MapReader.cpp
+         Lightning.cpp
+         Physics.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Raycast.cpp
+     1>src\Physics\Raycast.cpp(69): warning C4018: '<' : signed/unsigned mismatch
+         Player.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         SoundHandler.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\SoundHandler.cpp(31): warning C4018: '>' : signed/unsigned mismatch
+         CreditState.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Compiling...
+         EndingPrisonState.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         IntroState.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         MenuState.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         MiniGamePetState.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         MiniGamePowerState.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         MiniGameYogaState.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\States\MiniGame\MiniGameYogaState.cpp(114): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>src\States\MiniGame\MiniGameYogaState.cpp(118): warning C4018: '<' : signed/unsigned mismatch
+     1>src\States\MiniGame\MiniGameYogaState.cpp(204): warning C4018: '<' : signed/unsigned mismatch
+     1>src\States\MiniGame\MiniGameYogaState.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+         PlayerHouseState.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         WorldState.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         DialogHandler.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\Ui\DialogHandler.cpp(32): warning C4018: '>=' : signed/unsigned mismatch
+     1>src\Ui\DialogHandler.cpp(46): warning C4018: '>=' : signed/unsigned mismatch
+     1>src\Ui\DialogHandler.cpp(95): warning C4018: '>=' : signed/unsigned mismatch
+     1>src\Ui\DialogHandler.cpp(128): warning C4018: '<' : signed/unsigned mismatch
+         Menu.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         MenuTel.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         MenuTv.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Unit.cpp
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(30): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\devcode\games\ludum\ludum\src\Drawable.h(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Vector2.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\DevCode\Games\Ludum\Release\Ludum.exe" /INCREMENTAL:NO /NOLOGO SDL2.lib SDL2main.lib SDL2_ttf.lib SDL2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\DevCode\Games\Ludum\Release\Ludum.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\DevCode\Games\Ludum\Release\Ludum.lib" /MACHINE:X86 /SAFESEH Release\Animation.obj
+         Release\AnimationNode.obj
+         Release\AnimationReader.obj
+         Release\Sprite.obj
+         Release\Camera.obj
+         Release\GameEngine.obj
+         Release\GraphicHelper.obj
+         Release\InputHandler.obj
+         Release\Armor.obj
+         Release\Item.obj
+         Release\Weapon.obj
+         Release\Main.obj
+         Release\Map.obj
+         Release\MapReader.obj
+         Release\Lightning.obj
+         Release\Physics.obj
+         Release\Raycast.obj
+         Release\Player.obj
+         Release\SoundHandler.obj
+         Release\CreditState.obj
+         Release\EndingPrisonState.obj
+         Release\IntroState.obj
+         Release\MenuState.obj
+         Release\MiniGamePetState.obj
+         Release\MiniGamePowerState.obj
+         Release\MiniGameYogaState.obj
+         Release\PlayerHouseState.obj
+         Release\WorldState.obj
+         Release\DialogHandler.obj
+         Release\Menu.obj
+         Release\MenuTel.obj
+         Release\MenuTv.obj
+         Release\Unit.obj
+         Release\Vector2.obj
+         Generating code
+     1>d:\devcode\games\ludum\ludum\src\map\map.cpp(469): warning C4715: 'Map::getTileType' : not all control paths return a value
+         Finished generating code
+         Ludum.vcxproj -> D:\DevCode\Games\Ludum\Release\Ludum.exe
+     1>Done Building Project "D:\DevCode\Games\Ludum\Ludum\Ludum.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.49
